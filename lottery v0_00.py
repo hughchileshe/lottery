@@ -45,7 +45,7 @@ def randomNumberGenerator(numberOfBalls):
 # 
 def Entries(e,nob, f):
 	for i in range(e):
-		print(f(nob))
+		return f(nob)
 		
 # Function: Odds
 # Calculates based on the number of balls and entries
@@ -53,9 +53,4 @@ def Odds(numberOfBalls, ballsDrawn):
 	nobFactorial = math.factorial(numberOfBalls)
 	bdFactorial = math.factorial(ballsDrawn)
 	odds = nobFactorial / (bdFactorial*(math.factorial(numberOfBalls-ballsDrawn)))
-	print(odds)
-	
-
-	
-Odds(numberOfBalls, ballsDrawn)
-print(Entries(entries, numberOfBalls, randomNumberGenerator))
+	return odds
