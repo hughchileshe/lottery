@@ -125,3 +125,5 @@ dmypy.json
 .pyre/
 
 py_test.py
+.vscode
+bash.exe.stackdump
