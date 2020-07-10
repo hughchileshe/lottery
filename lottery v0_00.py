@@ -58,4 +58,4 @@ def Odds(numberOfBalls, ballsDrawn):
 
 	
 Odds(numberOfBalls, ballsDrawn)
-#print(Entries(entries, numberOfBalls, randomNumberGenerator))
+print(Entries(entries, numberOfBalls, randomNumberGenerator))
