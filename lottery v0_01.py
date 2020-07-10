@@ -22,10 +22,6 @@ def randomNumberGenerator(numOB, numBD):
     listN = []
     while len(listN) < numBD:
         numX = random.randint(1, numOB)
-        for i in range(len(listN)):
-            if numX == listN[i]:
-                numX = random.randint(1, numOB)
         listN.append(numX)
     return listN
 
-print(randomNumberGenerator(balls, ballsDrawn))
