@@ -22,6 +22,8 @@ def randomNumberGenerator(numOB, numBD):
     listN = []
     while len(listN) < numBD:
         numX = random.randint(1, numOB)
+        for index in range(len(listN)):
+            if listN[index] == numX:
+                numX = random.randint(1, numOB)
         listN.append(numX)
     return listN
-
