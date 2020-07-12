@@ -5,8 +5,8 @@ import random
 import math
 
 # Variable declaration
-ballsDrawn = 6
-balls = 10
+balls = int(input("Enter number of balls:\n"))
+ballsDrawn = int(input("Enter number of balls to be drawn:\n"))
 
 # Function definition for odds
 # Uses the balls and ballsDrawn variables
